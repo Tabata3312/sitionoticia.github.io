@@ -1,0 +1,693 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+   
+
+}
+
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    background-image: url;
+    background-size: 2em 2em;
+    background-position: center;
+
+}
+
+
+h1{
+    font-size: 4.5em;
+    padding: 10px 1em;
+    margin: 12px;
+    font-family: commando;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.amarillo {
+    background-image: url("img/ye.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+@keyframes mido{
+    from{
+        height: 20%;
+        width: 20%;
+        margin-left: 20em;
+    }
+    to{
+        height: 38%;
+        width: 38%;
+        margin-left: 30em;
+    }
+}
+.mido{
+    height: 30%;
+    width: 30%;
+    z-index: 3;
+    margin-left: 18em;
+    animation-name: mido;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: relative;
+    margin-right: -33em;
+}
+
+@keyframes baku{
+    from{
+        height: 30%;
+        width: 30%;
+        margin-left: 15em;
+    }
+    to{
+        height: 43%;
+        width: 43%;
+        margin-left: 18em;
+    }
+}
+
+.baku{
+    height: 40%;
+    width: 40%;
+    z-index: 1;
+    margin-left: 10em;
+    animation-name: baku;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: relative;
+    margin-top: 5em;
+
+}
+
+@keyframes al{
+    from {
+        height: 20%;
+        width: 20%;
+        margin-left: 22em;
+        margin-top: -50em;
+    }
+    to {
+        height: 32%;
+        width: 32%;
+        margin-left: 28em;
+        margin-top: -58em;
+    }
+  }
+
+.all{
+    height: 30%;
+    width: 30%;
+    z-index: 1;
+    margin-left: 24em;
+    animation-name: al;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    margin-top: -50em;
+    margin-right: 33em;
+      
+}
+
+.abajo{
+    width: 100%;
+    height: 16vh;
+    position: relative;
+    margin-top: -8em;
+    z-index: 4;
+    overflow: hidden;
+    position: bottom;
+
+}
+
+.logo{
+    width: 30%;
+    position: absolute;
+    margin-top: -46em;
+    margin-left: 3.5em;
+}
+
+.inicio {
+    padding: 1em;
+    margin: 12px;
+    
+}
+
+.inicio h1{
+    font-size: 1.9em;
+    font-family: commando; 
+    height: 4em;
+    width: 16.5em;
+    padding: 6px;
+    margin: 6px;
+    margin-top: -17.5em;
+    text-align: center ;
+    margin-left: 6px;
+    background: #000000; 
+    color: #ffffff; 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #ffea00; 
+    border-radius: 12px;
+    
+}
+
+.inicio p{
+    font-size: 1.4em;
+    font-family: commando;
+    padding: 15px; 
+    background-color: #e10000;
+    color: #ffffff;
+    padding: 7px;
+    margin: 7px;
+    height: 2.8em;
+    width: 17em;
+    text-align: center;
+    margin-left: 3em;
+    margin-top: 2em;
+    border-top:2px solid #790404; 
+    border-bottom:2px solid #5e0101;
+    border-radius: 12px;
+}
+
+section.contain{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-image: url(img/fondodos.jpg);
+    background-attachment: fixed; 
+    background-size: 100%;
+    margin-top: -4em;
+    
+}
+
+section.texto{
+    float: right;
+    width: 50%;
+    min-height: 400px;
+    margin-top: -31em;
+    font-size: 25px;
+    margin-right: 1.5em;
+    padding: 3em;
+    line-height: 35px;
+    color: aliceblue;
+    text-align: justify;
+   
+}
+
+.drop-dos{
+    margin-top: 4em;
+}
+
+.imagen img{
+    margin-left: 5em;
+    margin-top: 6em;
+    width: 34em;
+    height: 45em;
+    border-radius: 1em;
+}
+
+.drop-uno::first-letter{
+    -webkit-initial-letter: 4 1;
+          initial-letter: 4 1;
+     color: rgb(255, 237, 34);
+    margin-right: 2px;
+    margin-left: 6px;
+    font-size: 3em;
+    font-family:commando;
+
+}
+
+.drop-dos::first-letter{
+    -webkit-initial-letter: 4 1;
+          initial-letter: 4 1;
+    color: rgb(255, 237, 34);
+    margin-right: 2px;
+    margin-left: 6px;
+    font-size: 3em;
+    font-family:commando ;
+  
+}
+
+
+.pintura img{
+    margin-top: 60em;
+}
+
+
+.kiiro{
+    z-index: -1;
+    position: relative;
+    width: 35%;
+    height: 45%;
+    margin-left: 2em;
+    
+}
+
+.verde{
+    z-index: -2;
+    position:absolute;
+    margin-left:20em;
+    margin-top: -65em;
+    width: 40%;
+    height: 55%;
+    
+}
+
+.villanos{
+    padding: 1em;
+    
+}
+
+@keyframes villanos {
+    100% {
+      top: -30px;
+    }
+}
+  
+.villanos p{
+    cursor: default;
+    position: absolute;
+    top: 30px;
+    text-align: justify;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    margin: 2em;
+    display: block;
+    margin-top: 38em;
+    animation: villanos .6s ease infinite alternate;
+    
+    font-family: commando;
+    font-size: 3.3em;
+    color: rgb(30, 116, 141);
+    text-align: center;
+    line-height: 100px;
+    text-shadow: 0 1px 0 rgb(255, 255, 255),
+                 0 2px 0 rgb(254, 254, 254),
+                 0 3px 0 rgb(254, 254, 254),
+                 0 4px 0 rgb(254, 254, 254),
+                 0 5px 0 rgb(255, 255, 255),
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(255, 247, 0, 0.699);
+    
+  }
+
+
+.pintura-dos{
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
+
+.kiiro-dos{
+    z-index: -2;
+    position:relative;
+    margin-left:46em;
+    margin-top: -60em;
+    width: 40%;
+    height: 50%;
+    transform: rotate(-60deg);
+    
+}
+
+.verde-dos{
+    z-index: -1;
+    position: relative;
+    width: 50%;
+    height: 60%;
+    margin-top: -40em;
+    transform: rotate(-40deg);
+    
+}
+
+.plomo{
+    z-index: -3;
+    width: 50%;
+    height: 60%;
+    margin-top: -52em;
+    margin-left: 20em;
+
+}
+
+section.contain-dos{
+    width: 100%;
+    max-height: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/villanos-dos.jpeg);
+    background-attachment: fixed; 
+    background-size: cover;
+    position: relative;
+    margin-top: 9em;
+    padding: 9em;
+    
+}
+
+#textito{
+    font-size: 25px;
+    line-height: 35px;
+    color: aliceblue;
+    padding: 23px;
+    margin-left: -2em;
+    margin-top: -20px;
+    text-align: justify;
+    margin-right: 22em;
+    background-color: #000000af;
+    border-radius: 1em;
+   
+}
+
+.drop-cuatro{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.drop-tres::first-letter{
+    -webkit-initial-letter: 4 1;
+          initial-letter: 4 1;
+    color: rgb(255, 237, 34);
+    margin-right: 2px;
+    font-size: 3em;
+    font-family:commando;
+
+}
+
+.drop-cuatro::first-letter{
+    -webkit-initial-letter: 4 1;
+          initial-letter: 4 1;
+    color: rgb(255, 237, 34);
+    margin-right: 4px;
+    font-size: 3em;
+    font-family:commando;
+
+}
+
+@keyframes parte-cuatro{
+
+    0%{
+        width: 32em;
+        height: 46em;
+        background-size: cover;
+        background-image: url("img/一.jpeg");
+    }
+
+    15%{
+        width: 32em;
+        height: 46em;
+        background-size: cover;
+        background-image: url("img/二.jpeg");
+    }
+
+    25%{
+        width: 32em;
+        height: 46em;
+        background-size: cover;
+        background-image: url("img/三.jpeg");
+    }
+
+    35%{
+        width: 32em;
+        height: 46em;
+        background-size: cover;
+        background-image: url("img/四.jpeg");
+    }
+
+    45%{
+        width: 32em;
+        height: 46em;
+        background-size:cover;
+        background-image: url("img/五.jpeg");
+    }
+    55%{
+        width: 32em;
+        height: 46em;
+        background-size:cover;
+        background-image: url("img/六.jpeg");
+    }
+
+    65%{
+        width: 32em;
+        height: 46em;
+        background-size:cover;
+        background-image: url("img/七.jpeg");
+    }
+
+    85%{
+        width: 32em;
+        height: 46em;
+        background-size: cover;
+        background-image: url("img/八.jpeg");
+    }
+
+    100%{
+        width: 32em;
+        height: 46em;
+        background-size: cover;
+        background-image: url("img/九.jpeg");
+    }
+}
+
+
+section.fotos{
+    width: 32em;
+    height: 46em;
+    position: relative;
+    animation-name: parte-cuatro;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 1;
+    padding: auto;
+    margin-right: 4.5em;
+    float: right;
+    margin-top: -56.5em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+
+}
+
+.drop-cinco::first-letter{
+    -webkit-initial-letter: 4 1;
+          initial-letter: 4 1;
+    color: rgb(255, 237, 34);
+    margin-right: 2px;
+    font-size: 3em;
+    font-family:commando;
+
+}
+
+.lista{
+    counter-reset: li; 
+    list-style: none; 
+    list-style: decimal; 
+    font-size: 30px;
+    font-family: commando;
+    padding:1em;
+    text-shadow: 0 1px 0 rgba(133, 133, 133, 0.5);
+    margin: 2em;
+    margin-top: 6em;
+    margin-right: 22em;
+    margin-bottom: 7em;
+
+}
+
+.lista li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: 1.5em;
+    margin-right:3em ;
+    background-image: url("img/estrellas-green.png");
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+.lista li:hover{
+    background-image: url("img/estrellas-red.png")
+}
+
+.lista li:hover:before{
+    transform: rotate(360deg);  
+}
+
+.lista li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #000000;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid rgb(2, 123, 139);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+.fondiño{
+    padding: auto;
+    margin: 1em;
+    margin-top: -10em;
+}
+.gifs{
+    padding: 1em;
+    margin:1em;
+    
+
+}
+
+.gifs img{
+    width: 27em;
+    height: 17em;
+    padding: 10px;
+    border-radius: 4em;
+    background-image: url("img/bg_info.jpg");
+}
+
+.uno{
+    z-index: 1;
+    float: right;
+    margin-top: -46em;
+    margin-right: 15em;
+}
+
+.dos{
+    z-index: 2;
+    float: right;
+    margin-top: -24em;
+    margin-right: 15em;
+}
+
+.tres{
+    z-index: 3;
+    float: right;
+    margin-top: -35em;
+    margin-right: 2em;
+    
+}
+
+
+section .container-cuatro{
+    padding: 1em;
+    margin: 1em;
+
+}
+.nel{
+    width: 100%;
+    height: 80vh;
+    filter: brightness(0.4);
+    position: relative;
+    margin-top: 2em;
+    ;
+}
+
+.titulo h2{
+    font-size: 3.5em;
+    color: rgb(251, 255, 1);
+    font-family:commando;
+    text-align: center;
+    margin-top: -10em;
+    position: relative
+}
+.container h3{
+    font-family: commando;
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: 2em;
+    color: rgb(251, 255, 0);
+}
+
+.carta{
+    float: left;
+    width: 430px;
+    height: 300px;
+    margin-left: 2.3em;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+    position: relative;
+    margin-top: 5em;
+    
+}
+
+
+.container p{
+    text-align: center;
+    font-size: 1.3em;
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+#carta1{
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      )
+    ,url("img/jjk.jpeg");
+
+}
+
+
+#carta2{
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      )
+    ,url("img/kny.jpeg");
+
+}
+
+
+#carta3{
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      )
+    ,url("img/snk.jpeg");
+
+}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px; 
+    border: 1.5px solid rgba(255, 255, 255, 0.5);box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+    color:rgb(255, 255, 255);
+    background-color:rgb(7, 139, 151);
+    margin: 1em 8em;
+
+}
+
+
+.final{
+    width:100%;
+    height: 20vh;
+    margin-top: 3em;
+
+}
+
+
+
+
